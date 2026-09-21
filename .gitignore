@@ -1,0 +1,30 @@
+# Secrets
+.worker-token
+.env
+.env.*
+!.env.example
+
+# Runtime / generated data
+data/
+output/
+logs/
+tmp/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Render temporários
+*.srt
+*.wav
+*.mp3
+*.m4a
